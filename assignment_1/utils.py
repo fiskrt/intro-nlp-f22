@@ -143,8 +143,4 @@ def test_backprop(Builder, Executor, math_problems = None):
 
 
 if __name__ == '__main__':
-
-    from building import Builder
-    from executing import Executor
-    test_backprop(Builder, Executor)
-
+    pass
