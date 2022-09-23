@@ -5,7 +5,7 @@ import random
 
 ROUND = 2 ## we round results to two decimal places for checking
 
-MATH_PROBLEMS = [{'problem': 'x/y', 'in_vars': {'x': 1.0, 'y': 1.0}, 'output': 1.0, 'derivative': {'y': -1.0, 'x': 1.0}},
+MATH_PROBLEMS = [{'problem': 'x/y', 'in_vars': {'x': 1.0, 'y': 1.0}, 'output': 1.0, 'derivative': {'x': 1.0, 'y': -1.0}},
  {'problem': 'exp(x) - (y * 2)', 'in_vars': {'x': 2.0, 'y': -2.0},'output': 11.39, 'derivative': {'x': 7.39, 'y': -2.0}},
  {'problem': '(x^2 - 1) * (y+2)', 'in_vars': {'x': 3.0, 'y': 2.0}, 'output': 32.0, 'derivative': {'x': 24.0, 'y': 8.0}},
  {'problem': 'z + sin(x^(2) + (y * exp(z)))', 'in_vars': {'x': 2.0, 'y': -1.0, 'z': 0.0}, 'output': 0.14, 'derivative': {'x': -3.96, 'y': -0.99, 'z': 1.99}}]
